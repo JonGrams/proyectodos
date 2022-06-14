@@ -47,6 +47,12 @@ header nav .menu {
     gap: 2rem;
 }
 
+li :hover {
+    background-color:#ddb773;
+    padding: 1rem 1.2rem;
+    border-radius: 10px;
+}
+
 /*header .navigation {
     flex-basis: 50%;
 }
@@ -162,4 +168,10 @@ header .header__img {
     }
 }
 
+@media screen and (max-width: 480px) {
+    #propiedades {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
 
