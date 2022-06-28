@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    font-family:'Montserrat';
+    font-family:var(--font-principal);
 }
 
 
@@ -27,9 +27,24 @@ ul {
 
 a {
     text-decoration: none;
-    color: #2b2b2b;
+    color: var(--text-color);
 }
 
+:root {
+    /* Colors */
+    --primary: #ddb773;
+    --text-color: #000000;
+
+    /* Spacings */
+    --spacing-large: 6rem;
+    --spacing-small: 2rem;
+
+    /* Font-family */
+    --font-principal: 'Montserrat';
+
+    /* Font-sizes */
+    --text-base: 1.6em;
+}
 
 /*Header*/
 

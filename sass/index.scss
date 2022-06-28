@@ -1,50 +1,25 @@
-/*Header*/
+/*MISC*/
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 3rem 0;
-    border-top: 5px solid #2b2b2b;
-    border-bottom: 5px solid #2b2b2b;
+@import "./misc/variables";
+@import "./misc/normalize";
+@import "./misc/mixins";
 
-    nav .menu {
-        display: flex;
-        gap: 2rem;
+/*PARTIALS*/
 
-        .menu__link {
-            font-size: 1.6em;
-            padding: 1rem 1.2rem;
-            transition: all 2s;
-        }
-    }
+@import "./partials/header";
+@import "./partials/footer";
 
-    li :hover {
-        background-color: #ddb773;
-        color: whitesmoke;
-        padding: 1rem 1.2rem;
-        border-radius: 10px;
-    }
+/*VIEWS*/
 
-    .header__img {
-        max-width: 120px;
-        animation-name: rotateMe;
-        animation-duration: 4s;
-        animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        animation-iteration-count: 1;
-        animation-delay: 3s;
-    }
-
-}
+@import "./views/home";
+@import "./views/quierovender";
+@import "./views/quierocomprar";
+@import "./views/nosotros";
+@import "./views/contacto";
 
 
-/*header .navigation {
-    flex-basis: 50%;
-}
 
-header .header__logo {
-   flex-basis: 50%;
-}*/
+
 
 
 
