@@ -4,8 +4,24 @@ $primary: #ddb773;
 $text-color: #000000;
 
     /* Spacings */
+
 $spacing-large: 6rem;
+$spacing-medium: 2.4rem;
 $spacing-small: 2rem;
+$spacing-xsmall: 1.5rem;
+
+$spacings:(
+    spacing-large: 6rem,
+    spacing-medium: 2.4rem,
+    spacing-small: 2rem,
+    spacing-xsmall: 1.5rem
+);
+
+@each $key, $val in $spacings {
+    .#{$key} {
+        padding: #{$val};
+    }
+}
 
     /* Font-family */
 $font-principal: 'Montserrat';

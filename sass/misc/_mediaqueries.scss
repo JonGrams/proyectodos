@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px) {
+    header {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #propiedades {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
